@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outer Gold / Emerald Glow Ring -->
+    <path
+        android:pathData="M54,54m-27,0a27,27 0,1 1,54 0a27,27 0,1 1,-54 0"
+        android:strokeWidth="1.5"
+        android:strokeColor="#34D399" />
+
+    <!-- Coin Medallion Outer Base -->
+    <path
+        android:pathData="M54,54m-25,0a25,25 0,1 1,50 0a25,25 0,1 1,-50 0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="29"
+                android:startY="29"
+                android:endX="79"
+                android:endY="79">
+                <item android:offset="0.0" android:color="#1E293B" />
+                <item android:offset="0.5" android:color="#0F172A" />
+                <item android:offset="1.0" android:color="#064E3B" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Coin Inner Inset Ring -->
+    <path
+        android:pathData="M54,54m-22,0a22,22 0,1 1,44 0a22,22 0,1 1,-44 0"
+        android:strokeWidth="1"
+        android:strokeColor="#F59E0B" />
+
+    <!-- Rupee Top Horizontal Bar -->
+    <path
+        android:pathData="M40,38 H68 V42 H40 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="40"
+                android:startY="40"
+                android:endX="68"
+                android:endY="40">
+                <item android:offset="0.0" android:color="#FDE68A" />
+                <item android:offset="0.5" android:color="#F59E0B" />
+                <item android:offset="1.0" android:color="#D97706" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Rupee Middle Horizontal Bar -->
+    <path
+        android:pathData="M40,46 H58 V50 H40 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="40"
+                android:startY="48"
+                android:endX="58"
+                android:endY="48">
+                <item android:offset="0.0" android:color="#FDE68A" />
+                <item android:offset="0.5" android:color="#F59E0B" />
+                <item android:offset="1.0" android:color="#D97706" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Rupee Stem & Curved Loop & Leg -->
+    <path
+        android:pathData="M46,38 H50 V46 C55.5,46 62,46.5 62,53 C62,59 55.5,59.5 50,59.5 H47 L65.5,73 H60 L42.5,60.5 V56.5 H50 C54.5,56.5 58,55.5 58,53 C58,50 54.5,49.5 50,49.5 H46 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="42"
+                android:startY="38"
+                android:endX="66"
+                android:endY="73">
+                <item android:offset="0.0" android:color="#FEF08A" />
+                <item android:offset="0.3" android:color="#FBBF24" />
+                <item android:offset="0.7" android:color="#F59E0B" />
+                <item android:offset="1.0" android:color="#D97706" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Upward Trend Accent Line & Arrow on Top Right -->
+    <path
+        android:pathData="M69,45 L77,35"
+        android:strokeWidth="2.5"
+        android:strokeColor="#34D399"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M72,35 H77 V40"
+        android:strokeWidth="2.5"
+        android:strokeColor="#34D399"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- Sparkle Diamond Accent on Top Left -->
+    <path
+        android:pathData="M34,31 L35.5,34 L38.5,35.5 L35.5,37 L34,40 L32.5,37 L29.5,35.5 L32.5,34 Z"
+        android:fillColor="#FDE047" />
+
+    <!-- Sparkle Star Accent on Bottom Right -->
+    <path
+        android:pathData="M76,68 L77,70 L79,71 L77,72 L76,74 L75,72 L73,71 L75,70 Z"
+        android:fillColor="#34D399" />
+
+</vector>

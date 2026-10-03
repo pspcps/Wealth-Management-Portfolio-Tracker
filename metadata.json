@@ -1,0 +1,6 @@
+{
+  "name": "Wealth Management",
+  "description": "Smart wealth management, multi-asset portfolio tracker, live P&L, SIP management, expenses ledger, and comprehensive financial calculators.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
